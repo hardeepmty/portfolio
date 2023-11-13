@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div id="header">
+        <img src="camera2.png" alt="#" id="cam" />
+        <h2>HARDEEP MOHANTY</h2>
+      </div>
+      <div id="menu">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">PHOTOGRAPHY</a></li>
+          <li><a href="#">PROJECTS</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="blue"></div>
+
+    <div class="left-section">
+      <br />
+      <div class="text">
+        Hi! My name is <span class="purple">Hardeep</span>
+        <div>and I am passionate about</div>
+
+        <span id="element" class="purple"></span>
+        <div class="buttons">
+          <button class="btn"><a href="#">Visit Github</a></button>
+          <button class="btn"><a href="#">Download Resume</a></button>
+        </div>
+      </div>
+      <div id="gif"><img src="techgif.gif" alt="" /></div>
+    </div>
+   <div class="flex">
+    <div class="blue1"></div>
+    <div class="black"></div>
+   </div>
+
+    <section id="me">
+      <div id="about">
+        <h1>ABOUT ME!</h1><br>
+        <p>
+          My name is HARDEEP MOHANTY and I am new to the field of web development. I am passionate about learning new tech stuff and developments.<br>My hobbies include playing football and Photography.I like to code in C++ and PYTHON.
+        </p>
+      </div>
+      <div id="photo">
+        <img src="newpic.jpg" id="hardeep" />
+      </div>
+    </section>
+
+    <section class="skills">
+      <div class="ts">Technical Skills</div>
+      <div class="skills-image">
+        <div class="abc">
+          <div class="image-1">
+            <img src="cpp.png" class="skp" alt="" />
+            C++
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
+            ratione unde reiciendis consectetur perferendis odio.
+          </p>
+        </div>
+        <div class="abc">
+          <div class="image-1">
+            <img src="html.png" class="skp" alt="" />
+            HTML
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
+            ratione unde reiciendis consectetur perferendis odio.
+          </p>
+        </div>
+        <div class="abc">
+          <div class="image-1">
+            <img src="css.png" class="skp" alt="" />
+            CSS
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
+            ratione unde reiciendis consectetur perferendis odio.
+          </p>
+        </div>
+        <div class="abc">
+          <div class="image-1">
+            <img src="js.png" class="skp" alt="" />
+            JAVA SCRIPT
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
+            ratione unde reiciendis consectetur perferendis odio.
+          </p>
+        </div>
+        <div class="abc">
+          <div class="image-1">
+            <img src="py.png" class="skp" alt="" />
+            PYTHON
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
+            ratione unde reiciendis consectetur perferendis odio.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cart">
+      <div class="work">My Works</div>
+      <div class="sh">
+        <div class="box">
+          <i class="fa-regular fa-diagram-project"></i>
+          PROJECTS
+          <br />
+          Lorem ipsum dolor, jkdshk sit amet consectetur adipisicing elit. Dignissimos,
+          mollitia!
+          <br><br>
+          <a href="">Learn More</a>
+        </div>
+        <div class="box">
+          <i class="fa-sharp fa-solid fa-message-image"></i>
+          PHOTOS
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, placeat!
+          <br><br>
+          <a href="">Learn More</a>
+        </div>
+        <div class="box">
+          <i class="fa-regular fa-address-card"></i>
+          ABOUT
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, aut!
+          <br><br>
+          <a href="">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <footer class="footer">
+        <div class="contact">
+        Contact Me
+        </div>
+        <div class="web">
+        <div class="socials">
+        <a href="#"><i class="fa-brands fa-instagram"></i>@hardeep.04</a>
+        </div><br>
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-github"></i>@hardeepmty</a>
+          </div><br>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-linkedin"></i>@hardeepmohanty</a>
+            </div>
+        </div>
+      </footer>
+    </section>
+     <div class="contact1">
+    <button class="mail"><a href="mailto:mohanty4raj@gmail.com">Mail me</a></button>
+  </div>
+  </body>
+
+  <script src="app.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Photography", "Football", "Web Development"],
+      typeSpeed: 50,
+    });
+  </script>
+</html>
